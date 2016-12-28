@@ -22,16 +22,6 @@ use Mix.Config
 #
 config :infuse, web_root: "www"
 
-
-config :infuse,
-    default_content_type: "text/html",
-    default_renderer: Infuse.Simplates.Renderers.EExRenderer
-
-config :infuse, Infuse.HTTP.RequestHandler,
-    default_indicies: ['index.html', 'index.json', 'index',
-                       'index.html.spt', 'index.json.spt', 'index.spt']
-
-
 # It is also possible to import configuration files, relative to this
 # directory. For example, you can emulate configuration per environment
 # by uncommenting the line below and defining dev.exs, test.exs and such.

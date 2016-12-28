@@ -27,6 +27,6 @@ defmodule LawfulgoodWebsite.Mixfile do
   #
   # Type "mix help deps" for more examples and options
   defp deps do
-     [{:infuse, "~> 0.1.1"}]
+     [{:infuse, "~> 0.1.2"}]
   end
 end
