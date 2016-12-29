@@ -1,0 +1,9 @@
+# .deliver/config
+
+APP="lawfulgood-co"
+
+BUILD_HOST="104.236.43.88"
+BUILD_USER="builder"
+BUILD_AT="/tmp/edeliver/lawfulgood-co/builds"
+
+DELIVER_TO="/srv/www/lawfulgood.co"

@@ -1,5 +1,7 @@
 # LawfulgoodWebsite
 
+[![Build Status](https://semaphoreci.com/api/v1/lawfulgood/lawfulgood-co/branches/master/badge.svg)](https://semaphoreci.com/lawfulgood/lawfulgood-co)
+
 **TODO: Add description**
 
 ## Installation
