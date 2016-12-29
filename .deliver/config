@@ -4,8 +4,8 @@ APP="lawfulgood-co"
 
 BUILD_HOST="104.236.43.88"
 BUILD_USER="builder"
-BUILD_AT="/tmp/edeliver/lawfulgood-co/builds"
+BUILD_AT="/home/builder/lawfulgood-co/builds"
 
 PRODUCTION_HOSTS="104.236.43.88" # deploy / production hosts separated by space
 PRODUCTION_USER="builder" # local user at deploy hosts
-DELIVER_TO="/srv/www/lawfulgood.co"
+DELIVER_TO="/home/builder/lawfulgood-co/delivery"
