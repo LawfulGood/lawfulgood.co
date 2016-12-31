@@ -29,6 +29,6 @@ defmodule LawfulgoodWebsite.Mixfile do
   defp deps do
      [{:edeliver, "~> 1.4.0"},
       {:distillery, "~> 1.0"},
-      {:infuse, "~> 0.1.2"}]
+      {:infuse, "~> 0.1.3"}]
   end
 end
