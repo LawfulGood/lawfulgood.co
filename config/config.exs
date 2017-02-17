@@ -20,7 +20,10 @@ use Mix.Config
 #
 #     config :logger, level: :info
 #
-config :infuse, web_root: "www"
+config :infuse,
+    web_root: "www",
+    start_server: true,
+    start_observer: false
 
 # It is also possible to import configuration files, relative to this
 # directory. For example, you can emulate configuration per environment

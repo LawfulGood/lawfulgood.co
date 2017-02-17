@@ -3,7 +3,9 @@
   "dir_walker": {:hex, :dir_walker, "0.0.6", "d068e4306bce63d7475e38efabd0e27429153ce10546774b7789a9a9fa40154d", [:mix], []},
   "distillery": {:hex, :distillery, "1.0.0", "a866a72bf2a3a5f078f5a249017ed951acda88a760d200512f91f585d74db1ec", [:mix], []},
   "edeliver": {:hex, :edeliver, "1.4.0", "c1713b3fabfa75d64770a28b715379be6631442b5d288fc92d45e037757dc9c8", [:mix], [{:distillery, ">= 0.8.0", [hex: :distillery, optional: true]}, {:exrm, ">= 0.16.0", [hex: :exrm, optional: true]}]},
-  "infuse": {:hex, :infuse, "0.1.3", "097965cdf1c4337fea72a3d84b5283c6878af1405c616cceb0087894cab39b06", [:mix], [{:cowboy, "~> 1.0.0", [hex: :cowboy, optional: false]}, {:dir_walker, "~> 0.0.6", [hex: :dir_walker, optional: false]}, {:plug, "~> 1.0", [hex: :plug, optional: false]}]},
-  "mime": {:hex, :mime, "1.0.1", "05c393850524767d13a53627df71beeebb016205eb43bfbd92d14d24ec7a1b51", [:mix], []},
+  "fs": {:hex, :fs, "2.12.0", "ad631efacc9a5683c8eaa1b274e24fa64a1b8eb30747e9595b93bec7e492e25e", [:rebar3], []},
+  "infuse": {:hex, :infuse, "0.3.1", "71fcf40254c248cee0dcb6a6691930f61d318a31f5efa557b31b6a0cfd8a17d1", [:mix], [{:cowboy, "~> 1.0.0", [hex: :cowboy, optional: false]}, {:fs, "~> 2.12", [hex: :fs, optional: false]}, {:mime, "~> 1.1", [hex: :mime, optional: false]}, {:plug, "~> 1.0", [hex: :plug, optional: false]}, {:simplates, "~> 0.2.0", [hex: :simplates, optional: false]}]},
+  "mime": {:hex, :mime, "1.1.0", "01c1d6f4083d8aa5c7b8c246ade95139620ef8effb009edde934e0ec3b28090a", [:mix], []},
   "plug": {:hex, :plug, "1.3.0", "6e2b01afc5db3fd011ca4a16efd9cb424528c157c30a44a0186bcc92c7b2e8f3", [:mix], [{:cowboy, "~> 1.0.1 or ~> 1.1", [hex: :cowboy, optional: true]}, {:mime, "~> 1.0", [hex: :mime, optional: false]}]},
-  "ranch": {:hex, :ranch, "1.2.1", "a6fb992c10f2187b46ffd17ce398ddf8a54f691b81768f9ef5f461ea7e28c762", [:make], []}}
+  "ranch": {:hex, :ranch, "1.3.2", "e4965a144dc9fbe70e5c077c65e73c57165416a901bd02ea899cfd95aa890986", [:rebar3], []},
+  "simplates": {:hex, :simplates, "0.2.0", "425912d5fae16c715f767e57e2f224f03eeb573dc31b1cd531a0f7e5ac1f88ab", [:mix], [{:mime, "~> 1.1", [hex: :mime, optional: false]}, {:plug, "~> 1.0", [hex: :plug, optional: false]}]}}
